@@ -1,0 +1,12 @@
+<div class="topics">
+    <div class="topics__header">
+        <h2>Other users</h2>
+    </div>
+    <ul class="topics__list">
+        {% for friend in friends %}
+        <li>
+            <a href="">@{{friend}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
